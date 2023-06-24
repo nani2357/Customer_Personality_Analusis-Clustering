@@ -10,7 +10,7 @@ from PIL import Image
 st.set_page_config(layout="wide")
 # Load the model
 def load_model():
-    return pickle.load(open(r'D:\Customer_Personality_Analysis\final_model.sav', 'rb'))
+    return pickle.load(open('final_model.sav', 'rb'))
 
 # Make a prediction
 def make_prediction(model, new_data):
@@ -297,7 +297,7 @@ def main():
         st.markdown("<h2 style='text-align: left; color: black;'> End-to-End Model Development: Harnessing Clustering and Classification Techniques</h4>", unsafe_allow_html=True)
         
         # Read the Jupyter notebook file
-        with open(r'D:\Customer_Personality_Analysis\final_model.ipynb', 'r') as f:
+        with open('final_model.ipynb', 'r') as f:
             notebook = nbformat.read(f, as_version=4)
 
     # Convert the Jupyter notebook to HTML
@@ -308,7 +308,7 @@ def main():
         
     elif page == "Model Flow Chart":
         st.title('Model Flow Chart')
-        image = Image.open("D:/Customer_Personality_Analysis/model_folowchart.png")
+        image = Image.open("model_folowchart.png")
         st.image(image, use_column_width=True)
 
 
