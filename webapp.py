@@ -329,7 +329,7 @@ def main():
         """)
 
         with col2:
-            image = Image.open("D:\Customer_Personality_Analysis\img.jpg")
+            image = Image.open("img.jpg")
             st.image(image, use_column_width=True)
 
         
