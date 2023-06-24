@@ -1,0 +1,8 @@
+streamlit
+pandas
+numpy
+pickle5
+nbconvert
+nbformat
+PIL
+pickle
