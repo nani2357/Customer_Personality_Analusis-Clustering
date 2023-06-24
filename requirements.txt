@@ -2,6 +2,7 @@ streamlit
 pandas
 numpy
 pickle5
+xgboost
 nbconvert
 nbformat
 pillow
