@@ -4,5 +4,5 @@ numpy
 pickle5
 nbconvert
 nbformat
-PIL
+pillow
 pickle
