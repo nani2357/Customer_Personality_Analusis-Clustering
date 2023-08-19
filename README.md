@@ -1,4 +1,4 @@
-# Customer_Personality_Analusis-Clustering
+# Customer_Personality_Analysis-Clustering
 
 
 Implemented a comprehensive Customer Personality Analysis (CPA) model, drawing from real-world professional experiences. This project leveraged advanced techniques like sentiment analysis, clustering, and predictive modeling to understand and segment a company's diverse customer base. The primary focus was on:
